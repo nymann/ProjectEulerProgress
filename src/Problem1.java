@@ -18,10 +18,10 @@ public class Problem1 {
     long sumOfMultiplesBelowThisNumber = 100000000;
 
     public Problem1() {
-        sumOfAllMultiplesOf3Or5(sumOfMultiplesBelowThisNumber);
+        System.out.println(sumOfAllMultiplesOf3Or5(sumOfMultiplesBelowThisNumber));
     }
 
-    void sumOfAllMultiplesOf3Or5(long belowThis) {
+    long sumOfAllMultiplesOf3Or5(long belowThis) {
         long i = 1;
         long sum = 0;
 
@@ -36,7 +36,7 @@ public class Problem1 {
             i++;
         }
 
-        System.out.println(sum);
+        return sum;
     }
 
 
