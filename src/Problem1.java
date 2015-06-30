@@ -15,7 +15,7 @@
  */
 public class Problem1 {
 
-    long sumOfMultiplesBelowThisNumber = 100000000;
+    long sumOfMultiplesBelowThisNumber = 1000;
 
     public Problem1() {
         System.out.println(sumOfAllMultiplesOf3Or5(sumOfMultiplesBelowThisNumber));
