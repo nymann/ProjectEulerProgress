@@ -25,7 +25,6 @@ public class Problem15 {
     }
 
     void calculateNext() {
-
         for (int row = grid.length - 2; row >= 0 ; row--) {
             for (int col = grid.length - 2; col >= 0 ; col--) {
                 if ((grid[row + 1][col] != 0) && (grid[row][col + 1] != 0)) {
